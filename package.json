@@ -1,13 +1,15 @@
 {
-  "name": "telegram-bot",
+  "name": "telegram-encryption-bot",
   "version": "1.0.0",
-  "description": "A Telegram bot for encrypting files",
+  "description": "A Telegram bot with JavaScript file encryption and decryption features.",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.61.0",
-    "crypto-js": "^4.1.1"
-  }
+    "node-telegram-bot-api": "^0.54.0",
+    "crypto": "latest"
+  },
+  "author": "Jembut",
+  "license": "ISC"
 }
